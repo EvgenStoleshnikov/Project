@@ -113,7 +113,7 @@ body {
 }
 
 .content {
-  background-color: #F1F1F1;
+  background-color: #e2e5e8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -237,4 +237,127 @@ footer {
   margin-left: 617px;
   margin-right: 140px;
   margin-top: 18px;
+}
+
+.detail-content {
+  max-width: 1440px;
+  max-height: 1652px;
+  background-color: #e2e5e8;
+  display: flex;
+  padding: 0px 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.detail-content-card {
+  display: flex;
+  width: 1140px;
+  padding: 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 32px 0;
+}
+
+.detail-content-card-text {
+  width: 1044px;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+h1 {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.detail-content-card-detail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 32px;
+}
+
+.detail-content-card-text-description {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 506px;
+}
+
+.detail-content-card-text-parameters {
+  width: 506px;
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+h5 {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.detail-content-card-text-parameter {
+  width: 506px;
+  height: 45px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.parameter-title {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.parameter-value {
+  color: #121723;
+  text-align: right;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.parameter-line {
+  width: 506px;
+  height: 1px;
+  background-color: #bdbdbd;
+  align-self: stretch;
+  padding: 1px 0;
 }
