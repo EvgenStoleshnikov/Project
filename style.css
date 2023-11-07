@@ -241,7 +241,7 @@ footer {
 
 .detail-content {
   max-width: 1440px;
-  max-height: 1652px;
+  height: auto;
   background-color: #F1F1F1;
   display: flex;
   padding: 0px 150px;
@@ -265,7 +265,7 @@ footer {
 
 .detail-content-card-text {
   width: 1044px;
-  height: 860px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
