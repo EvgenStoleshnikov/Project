@@ -72,7 +72,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 110px;
   background-color: white;
 }
@@ -119,18 +120,24 @@ body {
   align-items: center;
   width: 100%;
   max-width: 1440px;
-  max-height: 1642px;
+  height: auto;
   flex: 1 0 auto;
 }
 
+.div-h2 {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  justify-content: left;
+}
+
 h2 {
-    font-family: "IBM Plex Mono", sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    color: #121723;
-    padding-right: 420px;
-    margin-top: 25px;
-    margin-bottom: 24px;
+  font-family: "IBM Plex Mono", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #121723;
+  margin-top: 25px;
+  margin-bottom: 24px;
 }
 
 .content_cards {
@@ -183,7 +190,8 @@ h2 {
 }
 
 footer {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   height: 142px;
   background-color: #121723;
 }
@@ -240,6 +248,7 @@ footer {
 }
 
 .detail-content {
+  width: 100%;
   max-width: 1440px;
   height: auto;
   background-color: #F1F1F1;
@@ -253,7 +262,8 @@ footer {
 
 .detail-content-card {
   display: flex;
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   padding: 48px;
   flex-direction: column;
   align-items: center;
@@ -263,8 +273,19 @@ footer {
   margin: 32px 0;
 }
 
+.detail-content-card-foto {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.detail-content-foto {
+  width: 100%;
+  max-width: 1140px;
+}
+
 .detail-content-card-text {
-  width: 1044px;
+  width: 100%;
+  max-width: 1044px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -306,11 +327,13 @@ h4 {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  width: 45%;
   width: 506px;
 }
 
 .detail-content-card-text-parameters {
-  width: 506px;
+  width: 45%;
+  max-width: 506px;
   height: 258px;
   display: flex;
   flex-direction: column;
@@ -328,7 +351,8 @@ h5 {
 }
 
 .detail-content-card-text-parameter {
-  width: 506px;
+  width: auto;
+  max-width: 506px;
   height: 45px;
   display: flex;
   align-items: flex-start;
@@ -355,7 +379,7 @@ h5 {
 }
 
 .parameter-line {
-  width: 506px;
+  width: auto;
   height: 1px;
   background-color: #bdbdbd;
   align-self: stretch;
