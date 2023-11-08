@@ -427,7 +427,6 @@ h5 {
   .header_logo,
   .header_navigation {
     margin: 0;
-    flex-wrap: nowrap;
   }
   .detail-content {
     padding-left: 16px;
