@@ -174,7 +174,8 @@ h2 {
 }
 
 .container_text_wrap {
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
   padding: 32px 24px;
   align-items: center;
   gap: 10px;
@@ -336,7 +337,7 @@ h4 {
   font-weight: 400;
   line-height: 28px;
   width: 45%;
-  width: 506px;
+  max-width: 506px;
 }
 
 .detail-content-card-text-parameters {
@@ -410,6 +411,16 @@ h5 {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .detail-content-card-detail {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .detail-content-card-text-description {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 765px) {
   .header {
     flex-wrap: wrap;
@@ -435,6 +446,7 @@ h5 {
   }
   h2 {
     font-size: 32px;
+    padding: 0 16px;
   }
   h4 {
     font-size: 30px;
@@ -446,7 +458,10 @@ h5 {
   .detail-content-card-text-description,
   .parameter-title,
   .parameter-value {
-font-size: 16px;
+    font-size: 16px;
+  }
+  .detail-content-card-text-description {
+    width: 100%;
   }
   footer {
     height: 195px;
