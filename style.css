@@ -132,7 +132,7 @@ body {
   justify-content: left;
 }
 
-h2 {
+.h2 {
   font-family: "IBM Plex Mono", sans-serif;
   font-size: 48px;
   font-weight: 500;
@@ -310,7 +310,7 @@ h1 {
   font-weight: 400;
 }
 
-h4 {
+.h2-detail {
   color: #121723;
   font-family: "Anonymous Pro";
   font-size: 36px;
@@ -347,7 +347,7 @@ h4 {
   flex: 1 0 0;
 }
 
-h5 {
+h3 {
   color: #121723;
   font-family: "Anonymous Pro";
   font-size: 30px;
@@ -439,11 +439,11 @@ h5 {
   h1 {
     font-size: 40px;
   }
-  h2 {
+  .h2 {
     font-size: 32px;
     padding: 0 16px;
   }
-  h4 {
+  .h2-detail {
     font-size: 30px;
   }
   .detail-content-card-detail {
@@ -478,7 +478,7 @@ h5 {
     margin: 0;
     gap: 24px;
   }
-  h2 {
+  .h2 {
     font-size: 32px;
     padding: 0 16px;
   }
